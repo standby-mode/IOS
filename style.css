@@ -1,0 +1,31 @@
+@font-face {
+  font-family: Inter;
+  src: url(Inter-Variable.ttf);
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+body {
+  all: unset;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: #000;
+  color: #fff;
+  overflow: hidden;
+}
+
+.start {
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
+  z-index: 999;
+  font-family: Inter;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,45 @@
+@font-face {
+  font-family: Inter;
+  src: url(Inter-Variable.ttf);
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+.weather-holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  height: 100vh;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+
+.weather-holder h1 {
+  font-size: 24vmin;
+  margin: unset;
+  font-family: Inter;
+  font-weight: 800;
+}
+
+.weather-holder h2 {
+  font-size: 6vmin;
+  margin: unset;
+  font-family: Inter;
+  font-weight: 800;
+}
+
+.weather-holder h3 {
+  font-size: 6vmin;
+  margin: unset;
+  font-family: Inter;
+  font-weight: 500;
+}
+
+.weather-holder img {
+  height: 8vmin;
+  margin: unset;
+  font-family: Inter;
+  font-weight: 500;
+}
