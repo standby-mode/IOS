@@ -312,10 +312,10 @@ function getData() {
                 temp = Math.round(data.current.temperature_2m)
                 minTemp = Math.round(Math.min(...data.minutely_15.temperature_2m))
                 maxTemp = Math.round(Math.max(...data.minutely_15.temperature_2m))
-                code = data.current.weather_code - 1
+                code = data.current.weather_code
                 day = data.current.is_day
                 units = data.current_units.temperature_2m
-                if (day = 1) {
+                if (day === 1) {
                     codeIcon = codeLocations[code].day.image
                     codeText = codeLocations[code].day.description
                 } else {
@@ -344,5 +344,6 @@ function getData() {
 
     });
 }
-setInterval(getData(), 300000)
+
+setInterval(getData(), 1200000)
 
